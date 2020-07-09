@@ -13,25 +13,6 @@ header {
     height:500px;
     margin-bottom:20px;
     margin-bottom: 0;
-    animation-name:bannerchange;
-    animation-duration:5s;
-    animation-delay: 1s;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
-}
-@keyframes bannerchange {
-    0% {
-        background-image:url('../images/banner2.jpg');
-    }
-    50% {
-        background-image:url('../images/banner3.jpg');
-    }
-    99% {
-        background-image:url('../images/banner1.jpg');
-    }
-
-
-
 }
 .container {
     display:flex;
