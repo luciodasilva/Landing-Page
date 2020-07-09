@@ -17,6 +17,7 @@ header {
     display:flex;
     justify-content:space-between;
     width:990px;
+    padding:25px;
 }
 .socialmedia ul {
     display:flex;
@@ -102,7 +103,4 @@ section {
 #info3 {
     background-color: violet;
 }
-@media (max-width:600px) {
-    .container {
-        padding:25px;
-}
+
