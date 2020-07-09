@@ -162,7 +162,8 @@ section {
 .imageinfo img {
     height:300px;
     max-width:100%;
-    border: 3px dotted #AAA;
+    border-top: 3px dotted #AAA;
+    border-bottom: 3px dotted #AAA;
 }
 .infotitle {
     padding:20px;
