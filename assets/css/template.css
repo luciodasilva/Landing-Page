@@ -270,11 +270,12 @@ section {
         font-size:28px;
     }
     .infotitle {
-        font-size:25px;
+        font-size:20px;
         margin-left:17px;
     }
     .infodesc {
         margin-top: -40px;
+        font-size:15px;
     }
     #blockinfo {
     height: 220px;
