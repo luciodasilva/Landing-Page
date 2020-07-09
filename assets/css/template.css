@@ -103,4 +103,8 @@ section {
 #info3 {
     background-color: violet;
 }
-
+@media (max-width:600px) {
+    .logo img {
+        height:120px;
+    }
+}
