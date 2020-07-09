@@ -161,6 +161,7 @@ section {
 }
 .imageinfo img {
     height:300px;
+    max-width:100%;
     border: 3px dotted #AAA;
 }
 .infotitle {
