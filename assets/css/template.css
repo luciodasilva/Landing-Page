@@ -168,17 +168,21 @@ section {
 .infotitle {
     padding:10px;
     margin:10px;
-    font-size:27px;
+    font-size:30px;
     font-weight: bold;
     color: rgba(61, 52, 99, 0.87);
-    font-family:'Segoe Script', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 .infodesc {
+    padding-top:0;
+    margin-top:0;
     padding:10px;
     margin:10px;
     font-size:17px;
-    color:rgba(68, 68, 68, 0.932);
+    color:rgba(119, 119, 119, 0.932);
     font-weight:bold;
+    background-color: rgba(240, 248, 255, 0.301);
+    border:1px solid rgba(170, 170, 170, 0.575);
 }
 #maininfo1 {
     opacity: 0;
