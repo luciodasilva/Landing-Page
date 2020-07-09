@@ -102,4 +102,7 @@ section {
 #info3 {
     background-color: violet;
 }
-
+@media (max-width:600px) {
+    .container {
+        padding:25px;
+}
