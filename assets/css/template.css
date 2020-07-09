@@ -166,14 +166,19 @@ section {
     border-bottom: 3px dotted #AAA;
 }
 .infotitle {
-    padding:20px;
-    font-size:23px;
+    padding:10px;
+    margin:10px;
+    font-size:27px;
     font-weight: bold;
-    color: rgba(100, 74, 214, 0.623)
+    color: rgba(61, 52, 99, 0.87);
+    font-family:'Segoe Script', Tahoma, Geneva, Verdana, sans-serif;
 }
 .infodesc {
-    padding:20px;
+    padding:10px;
+    margin:10px;
     font-size:17px;
+    color:rgba(68, 68, 68, 0.932);
+    font-weight:bold;
 }
 #maininfo1 {
     opacity: 0;
