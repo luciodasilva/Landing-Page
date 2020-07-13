@@ -107,10 +107,13 @@ section {
 #info3 {
     flex:1;
     display:flex;
+    justify-content: space-between;
     flex-direction:column;
     align-items:center;
     background-image:url(../images/backgroundimage.png);
     border:0.1px dotted rgba(170, 170, 170, 0.308);
+    border-top:1px dotted rgba(170, 170, 170, 0.308);
+    border-bottom:0;
     margin-left:0;
     margin-right:0;
 }
@@ -264,6 +267,21 @@ section {
 }
 #copy {
     padding:20px;
+}
+.bbutton {
+    text-align: end;
+    padding:10px;
+    padding-left:20px;
+    padding-right:20px;
+    color:rgba(53, 48, 48, 0.842);
+    font-weight: bolder;
+    font-size:13.5px;
+}
+.buybutton {
+    display:flex;
+    align-self: flex-end;
+    margin-right:5%;
+    margin-bottom:10px;
 }
 @keyframes infochange1 {
     0% {opacity: 0;}
