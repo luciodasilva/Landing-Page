@@ -106,18 +106,13 @@ section {
 #info2,
 #info3 {
     flex:1;
-    height:200px;
-    margin:0;
-    padding:0;
-}
-#info1 {
-    background-color: thistle;
-}
-#info2 {
-    background-color: teal;
-}
-#info3 {
-    background-color: violet;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-image:url(../images/backgroundimage.png);
+    border:0.1px dotted rgba(170, 170, 170, 0.308);
+    margin-left:0;
+    margin-right:0;
 }
 #banner_title1 {
     margin-top:190px;
@@ -135,13 +130,13 @@ section {
 }
 #banner_button {
     width:fit-content;
-    padding:15px;
-    border:2px solid rgba(53, 48, 48, 0.842);
-    padding-left:40px;
-    padding-right:40px;
+    padding:10px;
+    border:1.5px solid rgba(53, 48, 48, 0.842);
+    padding-left:20px;
+    padding-right:20px;
     color:rgba(53, 48, 48, 0.842);
     font-weight: bolder;
-    font-size:16px;
+    font-size:13px;
     background-color: rgba(235, 235, 235, 0.74);
     border-radius:10px;
 }
@@ -183,7 +178,6 @@ section {
     padding-right:5px;
     padding-left:5px;
 }
-
 .infodesc {
     padding:10px;
     margin:20px;
@@ -220,6 +214,57 @@ section {
     animation-duration: 20s;
     animation-delay:3s;
     animation-iteration-count: infinite;
+}
+.ibutton {
+    text-align: end;
+    padding:10px;
+    padding-left:20px;
+    padding-right:20px;
+    color:rgba(53, 48, 48, 0.842);
+    font-weight: bolder;
+    font-size:13.5px;
+}
+.infobutton {
+    display:flex;
+    justify-content: flex-end;
+    margin-top:0;
+    padding:0;
+}
+#info1 img,
+#info2 img,
+#info3 img {
+    width:90%;
+}
+#info1 p,
+#info2 p,
+#info3 p {
+    text-align:center;
+}
+.infot {
+    color: rgba(127, 129, 255, 0.781);
+    font-weight:bolder;
+}
+.infod {
+    font-size:14px;
+    color: rgb(94, 94, 94);
+    width:90%;
+}
+.foot {
+    background-image: url(../images/backgroundimage.jpg);
+    display:flex;
+    justify-content: space-between;
+    font-size:11px;
+    font-weight: bold;
+    color: rgb(46, 46, 46);
+}
+#email a {
+    color: rgb(88, 66, 107);
+}
+#email {
+    padding:20px;
+}
+#copy {
+    padding:20px;
 }
 @keyframes infochange1 {
     0% {opacity: 0;}
@@ -271,5 +316,11 @@ section {
     .infodesc {
         margin-top: -33px;
         font-size:15px;
+    }
+    .column {
+        flex-direction: column;
+    }
+    .foot {
+        text-align: center;
     }
 }
